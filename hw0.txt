@@ -1,3 +1,26 @@
 # Description of your program (part 7)
 
+Create an empty list to keep track of existing words seen.
+
+Begin at the first word of the document.
+
+For each word you come across moving forward in the document:
+
+    If the current word is in the list you created earlier, move on to the next word.
+
+    If the current word is not in the list, add it to your list and move on to the next word.
+
+Once you are at the end of the document, count how many words are in your list of existing words.
+
+Return this counted number as the word count.
+
 # Reflection on writing your program (part 8)
+
+I have written pseudo-code many, many times in previous courses so this was fairly easy.
+
+This varied from pseudo-code though because I wanted to make the conditional more intuitive by adding a
+conditional for if the current word was already in the list created earlier. This is because the person
+following instructions may question what to do if this happens, unlike a computer which would ignore this
+without question. I suppose this was unsatisfying because this is something I had to specify in this explanation
+compared to if I just wrote code/pseudo-code for it.
+
